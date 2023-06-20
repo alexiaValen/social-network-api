@@ -108,5 +108,6 @@ updateThought({ params, body }, res) {
       .catch((err) => res.json(err));
   },
 };
+
 module.exports = thoughtController;
 
