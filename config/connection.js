@@ -1,5 +1,5 @@
 const { connect, connection } = require('mongoose');
-const connectionString =
+const connectionString = //double check connection 
   process.env.MONGODB_URI || 'mongodb+srv://bizarrowill:Password123!@cluster0.8ogzorc.mongodb.net/';
 
 connect(connectionString, {
