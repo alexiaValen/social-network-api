@@ -1,6 +1,6 @@
 const { connect, connection } = require('mongoose');
 const connectionString = //double check connection 
-  process.env.MONGODB_URI || 'mongodb+srv://bizarrowill:Password123!@cluster0.8ogzorc.mongodb.net/';
+  process.env.MONGODB_URI || 'mongodb://localhost:27017/socialDB';
 
 connect(connectionString, {
   useNewUrlParser: true,
